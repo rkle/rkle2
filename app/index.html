@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	<title>Bootstrap</title>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-head">
+				<button type="button" class="navbar-toggle" data-toggle ="collapse" data-target = "#navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Brand</a>
+			</div>
+			<div class="navbar-collapse collapse" id="navbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">HTML5 <i class="caret"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">SVG</a></li>
+							<li><a href="#">Convas</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Mobile platform</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="carousel slide" id=mycarousel >
+		<ol class="carousel-indicators">
+			<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#mycarousel" data-slide-to="1"></li>
+			<li data-target="#mycarousel" data-slide-to="2"></li>
+			<li data-target="#mycarousel" data-slide-to="3"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/1.jpg" alt="1">
+				<div class="carousel-caption visible-lg">
+					<h2>Lead</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/2.jpg" alt="1">
+				<div class="carousel-caption visible-lg">
+					<h2>Lead</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/3.jpg" alt="1">
+				<div class="carousel-caption visible-lg">
+					<h2>Lead</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/4.jpg" alt="1">
+				<div class="carousel-caption visible-lg">
+					<h2>Lead</h2>
+					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button class="btn btn-primary">Read More</button>
+					<button class="btn btn-danger">Help Now</button>
+				</div>
+			</div>
+		</div>
+		<a href="#mycarousel" class="carousel-control left" data-slide="prev">&lsaquo;</a>
+		<a href="#mycarousel" class="carousel-control right" data-slide="next">&rsaquo;</a>
+	</div>
+	<section class="about text-center">
+		<div class="container">
+			<h1>Welcome To Our New Template With <strong>Bootstrap  3.3.7</strong></h1>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
+		</div>
+	</section>
+	<section class="features text-center">
+		<div class="container">
+			<h1>Our Features</h1>
+			<div class="row">
+				<div class="feat col-xs-12 col-sm-3">
+					<span class="glyphicon glyphicon-ok"></span>
+					<h3>Full Responsive</h3>
+					<p></p>
+				</div>
+				<div class="feat col-xs-12 col-sm-3">
+					<span class="glyphicon glyphicon-thumbs-up"></span>
+					<h3>Rotina Ready</h3>
+					<p></p>
+				</div>
+				<div class="feat col-xs-12 col-sm-3">
+					<span class="glyphicon glyphicon-pencil"></span>
+					<h3>Well Document</h3>
+					<p></p>
+				</div>
+				<div class="feat col-xs-12 col-sm-3">
+					<span class="glyphicon glyphicon-eye-open"></span>
+					<h3>Good Display</h3>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="testimonial text-center">
+		<div class="container">
+			<div class="carousel slide" id="testimonial-carousel">
+				<h1>Our Testimonial </h1>
+				<div class="carousel-inner">
+					<div class="item active">
+						<p class="lead">Arafat ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<span>Arafat Mohamed</span>
+					</div>
+					<div class="item">
+						<p class="lead">mohamed ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<span>Mohamed Aly</span>
+					</div>
+					<div class="item">
+						<p class="lead">Asmaa ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<span>Asmaa Fawzy</span>
+					</div>
+					<div class="item">
+						<p class="lead">Fawzy ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<span>Fawzy Mohamed</span>
+					</div>
+				</div>
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#testimonial-carousel" data-slide-to="0">
+						<img src="images/avatar1.jpg">
+					</li>
+					<li data-target="#testimonial-carousel" data-slide-to="1">
+						<img src="images/avatar2.jpg">
+					</li>
+					<li data-target="#testimonial-carousel" data-slide-to="2">
+						<img src="images/avatarw1.png">
+					</li>
+					<li data-target="#testimonial-carousel" data-slide-to="3">
+						<img src="images/avatar4.jpg">
+					</li>
+				</ol>
+			</div>
+		</div>
+	</section>
+	<section class="pricing-table text-center">
+		<div class="container">
+			<h1>Our Amazing Pricing </h1>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="price-box">
+						<h3 class="text-primary">Hosting</h3>
+						<h4>$40</h4>
+						<ul class="list-unstyled">
+							<li>space: 40Gb</li>
+							<li>IPs: 2IPs</li>
+							<li>RAM: 8GB</li>
+							<li>Cloud: 500GB</li>
+							<li>RunTime: 24/7</li>
+						</ul>
+						<button class="btn btn-primary">Order Now</button>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="price-box">
+						<h3 class="text-danger">Ftps</h3>
+						<h4>$66</h4>
+						<ul class="list-unstyled">
+							<li>space: 3Gb</li>
+							<li>IPs: 5IPs</li>
+							<li>RAM: 6GB</li>
+							<li>Cloud: 200GB</li>
+							<li>RunTime: 24/7</li>
+						</ul>
+						<button class="btn btn-danger">Order Now</button>
+
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="price-box">
+						<h3 class="text-info">Vps</h3>
+						<h4>$59</h4>
+						<ul class="list-unstyled">
+							<li>space: 70Gb</li>
+							<li>IPs: 3IPs</li>
+							<li>RAM: 2GB</li>
+							<li>Cloud: 300GB</li>
+							<li>RunTime: 24/7</li>
+						</ul>
+						<button class="btn btn-info">Order Now</button>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="price-box">
+						<h3 class="text-warning">Detecated</h3>
+						<h4>$80</h4>
+						<ul class="list-unstyled">
+							<li>space: 90Gb</li>
+							<li>IPs: 7IPs</li>
+							<li>RAM: 4GB</li>
+							<li>Cloud: 600GB</li>
+							<li>RunTime: 24/7</li>
+						</ul>
+						<button class="btn btn-warning">Order Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/plugins.js"></script>
+</body>
+</html>
