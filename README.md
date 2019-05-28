@@ -1,2 +1,2 @@
 # rkle2.github.io
-Bootstrap course with ElzeroWebSchool :D
+Just an appLICATION with Bootsrap
